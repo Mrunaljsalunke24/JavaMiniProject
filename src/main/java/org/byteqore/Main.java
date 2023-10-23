@@ -22,15 +22,18 @@ public class Main {
 
 
             //accept input selection from user to perform action/operation
-            Scanner scObj=new Scanner(System.in);
-            int inputSelection=scObj.nextInt();
+            Scanner scObj = new Scanner(System.in);
+            int inputSelection = scObj.nextInt();
             //Print the User selection to show user that he has selected which operation
 
             // Write a switch case and create an object of specific class there to perform operations as per the users choice
-            switch (inputSelection){
-                case 0: exit=false;
+            switch (inputSelection) {
+                case 0:
+                    exit = false;
                     System.out.println("Thank you for your valuable time.");
-                break;
+                    break;
+                case 1:
+                    break;
             }
             // Then pass the user selection to the object to call the respective method and perform operation
 
